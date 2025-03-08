@@ -41,7 +41,7 @@ const config = {
     default: 'arcade',
     arcade: {
       gravity: { y: 630 },
-      debug: true
+      debug: false
     }
   },
   scene: [Menu, Game, Shop, PauseScene] // todas as cenas do jogo
